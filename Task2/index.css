@@ -98,5 +98,14 @@
   color: #a93339;  
 }
 
+.photo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.photo img{
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
 
 

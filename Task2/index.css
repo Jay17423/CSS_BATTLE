@@ -56,4 +56,47 @@
   font-style: italic;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.logo img {
+  height: 60px; 
+  width: 100px;
+}
+
+
+.search-bar input {
+  margin-left: 50px;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 300px; 
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.menu a {
+  margin-left: 20px;
+  color: rgb(62, 62, 62);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #a93339;  
+}
+
+
 
